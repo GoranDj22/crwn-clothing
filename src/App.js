@@ -30,8 +30,6 @@ class App extends React.Component {
               ...snapShot.data()
             }
           });
-
-          console.log(this.state);
         });
       }
       if(this.setState({ currentUser: userAuth}));  // nije sigurno da je 'if'
